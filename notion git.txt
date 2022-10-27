@@ -1,20 +1,18 @@
-< https://www.acmicpc.net/problem/2355 >
+< https://www.acmicpc.net/problem/2747 >
+
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int sum = 0;
-		
-		for (int i = a; i < b; i++) {
-			if (b-a == 1) {
-				sum = a+b;
-			} else{
-				sum = a + b + i;
-			}
+		int n = sc.nextInt();
+		int a = 0, b = 1, c = 0;
+
+		for (int i = 2; i <= n; i++) {
+			c = a + b;
+			a = b;
+			b = c;
 		}
-		System.out.println(sum);
-		
+		System.out.println(c);
 	}
 }
