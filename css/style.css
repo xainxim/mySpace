@@ -1,0 +1,66 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    font-size: 90px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    position: relative;
+    height: 80px;
+    background-color: pink;
+    border-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.button{
+    background-color: darksalmon;
+    border-color: palevioletred;
+}
+
+.section1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    position: relative;
+    background-color: pink;
+    height: 100px;
+    margin-top: 50px;
+}
+
