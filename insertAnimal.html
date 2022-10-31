@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>유기동물 입양 센터</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>유기동물 보호 센터</title>
+    <link rel="stylesheet" href="./css/insertAnimal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,14 +20,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>소중한 아가들이 기다리는 즁</h1>
+        <h1>보호 중인 유기동물 등록</h1>
         <section>
-            <input type="text" id="id" placeholder="ID" class="inputBox"> <br><br>
-            <input type="text" id="pwd" placeholder=" PASSWORD" class="inputBox"> <br><br>
-            <a href="./mainView.html"><input type="button" value="완료" class="loginBtn"></a>
-            <a href="./signUp.html"><input type="button" value="회원가입" class="goSignup"></a>
+            <select name="species" id="species" class="inputBox">종
+                <option value="animal1">개</option>
+                <option value="animal2">고양이</option>
+                <option value="animal3">비둘기</option>
+                <option value="animal4">고라니</option>
+            </select> <br><br>
+            <input type="text" id="name" placeholder="아가 이름" class="inputBox"> <br><br>
+            <input type="text" id="age" placeholder="아가 나이" class="inputBox"> <br><br>
+            <input type="text" id="note" placeholder="특이사항" class="inputBox"> <br><br><br>
+            <a href="#"><input type="button" value="등록하기" class="button"></a>
         </section>
     </div>
-    
 </body>
 </html>
