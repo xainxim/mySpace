@@ -1,0 +1,38 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: floralwhite;
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.loginBtn{
+    width: 100px;
+    background-color: pink;
+    border-style: none;
+}
+
+.goSignup{
+    width: 100px;
+    background-color: pink;
+    border-style: none;
+}
+
+section{
+    text-align: center;
+    align-items: center;
+}
