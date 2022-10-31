@@ -8,6 +8,7 @@
 }
 
 .container{
+    background-color: floralwhite;
     width: 1200px;
     margin: auto;
 }
@@ -23,13 +24,12 @@ h1{
 fieldset{
     position: relative;
     height: 80px;
-    background-color: pink;
+    background-color: lightcoral;
     border-style: none;
 }
 
 .menu > li > a{
     color: white;
-    border-color: hotpink;
     font-size: 40px;
 
 }
@@ -41,8 +41,8 @@ fieldset{
 }
 
 .button{
-    background-color: darksalmon;
-    border-color: palevioletred;
+    background-color: pink;
+    border-style: none;
 }
 
 .section1{
@@ -65,7 +65,7 @@ fieldset{
 
 footer{
     position: relative;
-    background-color: pink;
+    background-color: lightcoral;
     height: 100px;
     margin-top: 50px;
 }
@@ -79,12 +79,13 @@ footer > p {
 }
 
 footer > div{
-
     text-align: right;
     font-size: 25px;
+    margin-right: 20px;
 }
 footer > div > a{
     text-align: right;
     font-size: 25px;
+    margin-right: 20px;
 }
 
