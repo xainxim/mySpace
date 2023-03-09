@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #333;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* position: relative; */
+}
+header > div{
+    float: left;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.menu{
+    /* position: absolute; */
+    float: right;
+    width: 800px;
+    padding-top: 60px;
+    margin-right: 50px;
+    z-index: 1;
+}
+.mainMenu{
+    background: white;
+    width: 800px;
+    height: 40px;
+    
+}
+.mainMenu > ul > li >a{
+    display: block;
+}
+.mainMenu > ul > li > a:hover{
+    color: white;
+}
+.mainMenu > ul> li:hover{
+    background-color: #333;
+}
+
+.mainMenu > ul > li {
+    width: 200px;
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.subMenu{
+    width: 1200px;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    margin-left: -350px;
+    display: none;
+    /* margin-right: 50px; */
+}
+.subMenu > ul > li{
+    width: 200px;
+    float: right;
+    text-align: center;
+    
+}
+.subMenu > ul{
+    /* margin-left: 400px;  */
+    margin-right: 50px;
+}
+.subMenu > ul > li > ul > li {
+    height: 50px;
+    line-height: 50px;
+}
+.subMenu > ul > li > ul > li > a{
+    display: block;
+    color: white;
+}
+.subMenu > ul > li > ul > li > a:hover{
+    color: black;
+}
+.subMenu > ul > li > ul > li:hover{
+    background-color: yellow;
+}
+
+
+
